@@ -1,5 +1,7 @@
 header {
     text-align: center;
+    color:aqua;
+    background-image: url("images/images.jpg");
 }
 
 header img {
