@@ -1,7 +1,9 @@
 header {
     text-align: center;
-    color:aqua;
+    color:red;
     background-image: url("images/images.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
 }
 
 header img {
