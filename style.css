@@ -1,9 +1,9 @@
 header {
     text-align: center;
-    color:red;
-    background-image: url("images/images.jpg");
+    color: red;
+    background-image: repeating-linear-gradient(45deg, #8ac7e5, #8ac7e5 200px, #fddf02 200px, #fddf02 400px, #742964 400px, #742964 600px);
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
 }
 
 header img {
