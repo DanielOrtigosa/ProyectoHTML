@@ -8,7 +8,6 @@ html {
     */
 }
 
-<<<<<<< HEAD
 .header {
     overflow: hidden;
     background-color: #742964;
@@ -56,18 +55,6 @@ html {
     }
   }
   
-=======
-body{
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-}
-
-header {
-    padding: 60px;
-    background-color:#742964;
-}
->>>>>>> 62d3a7d79a69ef57cfbda12ad3458f9a772988c6
 
 footer {
     padding: 60px;
