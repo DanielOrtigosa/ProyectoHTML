@@ -1,9 +1,20 @@
 html {
     text-align: center;
-    color: red;
+    background-color: #8ac7e5;
+    /*
     background-image: repeating-linear-gradient(45deg, #8ac7e5, #8ac7e5 200px, #fddf02 200px, #fddf02 400px, #742964 400px, #742964 600px);
     background-repeat: no-repeat;
     background-size: cover;
+    */
+}
+
+header {
+    background-color:#742964;
+}
+
+footer {
+    background-color:#fddf02;
+    vertical-align: bottom;
 }
 
 #menu {
