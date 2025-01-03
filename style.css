@@ -1,11 +1,5 @@
 html {
-    text-align: center;
     background-color: #8ac7e5;
-    /*
-    background-image: repeating-linear-gradient(45deg, #8ac7e5, #8ac7e5 200px, #fddf02 200px, #fddf02 400px, #742964 400px, #742964 600px);
-    background-repeat: no-repeat;
-    background-size: cover;
-    */
 }
 
 .header {
@@ -180,4 +174,15 @@ html {
     100% {
         margin-left: 0;
     }
+}
+
+#caja {
+    float:left;
+    height: auto;
+    width: 90%;
+    border-radius: 1rem;
+    background-color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-transform: 10px;
 }
