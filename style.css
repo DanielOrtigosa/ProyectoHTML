@@ -45,6 +45,14 @@ html {
 
 .header-right {
     float: right;
+    margin-left: 212px;
+}
+
+.center {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 160px;
 }
 
 @media screen and (max-width: 500px) {
