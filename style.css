@@ -176,7 +176,7 @@ html {
     }
 }
 
-#caja {
+#caja-titulos {
     float:left;
     height: auto;
     width: 90%;
@@ -184,5 +184,34 @@ html {
     background-color: white;
     margin-top: 50px;
     margin-bottom: 50px;
+    margin-left: 5%;
     text-transform: 10px;
+}
+.caja-text{
+    margin-left: 5%;
+}
+
+#caja-noticias {
+    display: flex;
+    float:left;
+    height: 700px;
+    width: 80%;
+    margin-left: 10%; 
+    background-color: #fddf02;
+}
+.caja-noticias-img{
+    height: inherit;
+    width: inherit;
+    object-fit: contain;
+    position: absolute;
+    margin-left: -10%;
+}
+
+#caja-noticias-chikita {
+    float:left;
+    height: 200px;
+    width: 33%;
+    margin-left: 10%;
+    margin-top: 10%;
+    background-color: #fff8c3;
 }
