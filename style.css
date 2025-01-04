@@ -215,3 +215,20 @@ html {
     margin-top: 10%;
     background-color: #fff8c3;
 }
+
+#caja-articulos {
+    width: 100%;
+    text-align:left;
+    display: flex;
+    height: 100px;
+}
+.caja-articulos-imagen{
+    float: center;
+    width: 100%;
+}
+.caja-articulo-lista {
+    text-align: auto;
+    overflow-wrap:break-word;
+    width: 100%;
+    
+}
