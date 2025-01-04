@@ -223,12 +223,18 @@ html {
     height: 100px;
 }
 .caja-articulos-imagen{
-    float: center;
+    float:center;
     width: 100%;
+    margin-left: 10%;
 }
 .caja-articulo-lista {
     text-align: auto;
     overflow-wrap:break-word;
-    width: 100%;
-    
+    width: 90%;
+    background-color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    padding-left: 1%;
+
 }
