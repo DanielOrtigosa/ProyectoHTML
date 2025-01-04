@@ -226,8 +226,10 @@ html {
     float:center;
     width: 100%;
     margin-left: 10%;
+    float: center;
 }
 .caja-articulo-lista {
+    font-size: 25;
     text-align: auto;
     overflow-wrap:break-word;
     width: 90%;
@@ -235,6 +237,7 @@ html {
     margin-top: 50px;
     margin-bottom: 50px;
     margin-left: auto;
-    padding-left: 1%;
+    padding-left: 2%;
+    border-radius: 1rem;
 
 }
