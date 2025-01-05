@@ -193,7 +193,9 @@ html {
 
 #caja-noticias {
     display: flex;
+    align-items: center;
     float:left;
+    justify-content: space-between;
     height: 700px;
     width: 80%;
     margin-left: 10%; 
@@ -203,26 +205,35 @@ html {
     height: inherit;
     width: inherit;
     object-fit: contain;
-    position: absolute;
-    margin-left: -10%;
+}
+.caja-noticias-text{
+    padding: 50px;
 }
 
 #row-cajas-noticias{
-    align-items: center;
+    /*Esto + el display: ingline-block en lo que haya dentro hace que se alinee todo centrado*/
+    text-align: center;
 }
 
 #caja-noticias-chikita {
-    float:left;
-    height: 400px;
+    display: inline-block;
+    position: relative;
+    height: 300px;
     width: 400px;
-    margin-left: 10%;
-    background-color: #fff8c3;
-    margin-top: 2%;
+    margin: 3.5%;
 }
 .caja-noticias-chikita-img{
     height: inherit;
     width: inherit;
     object-fit: scale-down;
+}
+.barra-imagen{
+    position:absolute;
+    bottom: 0;
+    background-color: #fff8c3;
+    width: 100%;
+    display: flex;
+    align-items: center;
 }
 
 #caja-articulos {
@@ -248,4 +259,29 @@ html {
     margin-left: auto;
     padding-left: 2%;
     border-radius: 1rem;
+}
+
+/* Estilos Texto */
+.texto-negrita{
+    font-weight: bold;
+}
+
+.texto-cursiva{
+    font-style: italic;
+}
+.texto-grande{
+    font-size: 20;
+}
+.texto-abajo{
+    padding-top: 100px;
+}
+
+footer {
+    display: flex;
+    position:sticky;
+    margin-top: 10px;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+    background-color: #742964;
 }
