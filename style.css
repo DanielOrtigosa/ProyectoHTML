@@ -187,6 +187,17 @@ html {
     margin-left: 5%;
     text-transform: 10px;
 }
+
+.imagenes-box{
+    height: 500px;
+    width: 60%;
+    margin-left: 5%;
+}
+
+.textos-tabulados{
+    margin-left: 90px;
+}
+
 .caja-text{
     margin-left: 5%;
 }
