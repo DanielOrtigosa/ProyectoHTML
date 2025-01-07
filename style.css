@@ -252,14 +252,14 @@ html {
     width: 80%;
     text-align:justify;
     display: flex;
-
+    height: 100%;
     align-items: flex-start;
     justify-content: center; 
 }
 .caja-articulos-imagen{
 
-    width: 100%;
-    margin-left: 80%;
+    width: 130%;
+    margin-left: 70%;
     
 }
 .caja-articulo-lista {
@@ -270,11 +270,12 @@ html {
 
     margin-left: 40%;
     margin-right: 20%;
-    height: 50%;
-    width:50%; 
+    padding: 5%;
+    width:60%; 
+    justify-content: space-between;
 
     border-radius: 1rem;
-    text-align: center;
+    text-align: justify;
 }
 
 /* Estilos Texto */
