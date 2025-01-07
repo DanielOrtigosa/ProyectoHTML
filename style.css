@@ -249,15 +249,17 @@ html {
 }
 
 #caja-articulos {
-    width: 100%;
-    text-align:left;
+    width: 80%;
+    text-align:justify;
     display: flex;
-    height: 100px;
+
+    align-items: flex-start;
+    justify-content: center; 
 }
 .caja-articulos-imagen{
-    float:left;
-    width: 70%;
-    margin-left: 20%;
+
+    width: 100%;
+    margin-left: 80%;
     
 }
 .caja-articulo-lista {
@@ -265,10 +267,14 @@ html {
     background-color: white;
     margin-top: 50px;
     margin-bottom: 50px;
-    margin-left: 5%;
-    padding: 15px;
-    width: 60%; 
 
+    margin-left: 40%;
+    margin-right: 20%;
+    height: 50%;
+    width:50%; 
+
+    border-radius: 1rem;
+    text-align: center;
 }
 
 /* Estilos Texto */
