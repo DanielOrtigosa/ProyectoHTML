@@ -249,11 +249,13 @@ html {
 }
 
 #caja-articulos {
+    float: left;
     width: 80%;
     text-align:justify;
     display: flex;
-    height: 100%;
+    height: auto;
     align-items: flex-start;
+    align-items: center;
     justify-content: center; 
 }
 .caja-articulos-imagen{
