@@ -3,6 +3,7 @@
 <!-- Página Principal -->
 
 <head>
+    <link rel="stylesheet" href="structure.css" />
     <link rel="stylesheet" href="style.css" />
     <title>Página Principal</title>
 
@@ -21,83 +22,104 @@
 </head>
 
 <body>
-    <!-- Carrusel de Imagenes -->
-    <div id="carrusel-contenido">
-        <div id="carrusel-caja">
-            <div class="carrusel-elemento">
-                <img class="imagenes" src="images/chayanne.png">
-            </div>
-            <div class="carrusel-elemento">
-                <img class="imagenes" src="images/ayuntamientoRes.png">
-            </div>
-            <div class="carrusel-elemento">
-                <img class="imagenes" src="images/ripolletRes.png">
-            </div>
-        </div>
-    </div>
-
-    <div>
-        <!-- Eventos Próximos -->
-        <div id="caja-titulos">
-            <h1 class="caja-text">Eventos Próximos</h1>
-        </div>
-
-        <div id="caja-noticias">
-            <img src="images/ayuntamiento.jpg" alt="Evento Próximo destacado" class="caja-noticias-img">
-        </div>
-
-        <div id="row-cajas-noticias">
-            <div id="caja-noticias-chikita">
-                <img src="images/ayuntamiento.jpg" alt="Evento Próximo destacado" class="caja-noticias-chikita-img">
-            </div>
-            <div id="caja-noticias-chikita">
-                <img src="images/ayuntamiento.jpg" alt="Evento Próximo destacado" class="caja-noticias-chikita-img">
-            </div>
-            <div id="caja-noticias-chikita">
-                <img src="images/ayuntamiento.jpg" alt="Evento Próximo destacado" class="caja-noticias-chikita-img">
+    <div class="flex-wrapper">
+        <!-- Carrusel de Imagenes -->
+        <div id="carrusel-contenido">
+            <div id="carrusel-caja">
+                <div class="carrusel-elemento">
+                    <img class="imagenes" src="images/chayanne.png">
+                </div>
+                <div class="carrusel-elemento">
+                    <img class="imagenes" src="images/ayuntamientoRes.png">
+                </div>
+                <div class="carrusel-elemento">
+                    <img class="imagenes" src="images/ripolletRes.png">
+                </div>
             </div>
         </div>
 
-        <!-- Noticias Importantes -->
-        <div id="caja-titulos">
-            <h1 class="caja-text">Noticias Importantes</h1>
-            <img src="images/5-ecoparc_montcada1-copia.jpg" alt="Evento Próximo destacado" class="imagenes-box">
-            <p class="textos-tabulados">La entidad organizadora, la CRAC, hace un llamamiento para que las letraheridas y letraheridos de 16 a 18 años presenten sus obras al recuperado premio literario ripolletense</p>
-            <img src="images/tablet.jpg" alt="Evento Próximo destacado" class="imagenes-box">
-            <p class="textos-tabulados">La flota de recollida d'escombraries s'adapta al servei Ripollet Aporta</p>
-            <img src="images/tablet (1).jpg" alt="Evento Próximo destacado" class="imagenes-box">
-            <p class="textos-tabulados">Dades de l’AMB sobre la recollida selectiva a Ripollet mostren una tendència positiva de separació de residus en les darreres setmanes</p>
-            <img src="images/tablet (2).jpg" alt="Evento Próximo destacado" class="imagenes-box">
-            <p class="textos-tabulados">El nou sistema de recollida de residus conviurà amb l'antic fins que tothom no tingui el material i la informació necessaris</p>
-        </div>
-
-        <!-- Articulos Educativos Mediambientales -->
-        <div id="caja-titulos">
-            <h1 class="caja-text">Articulos Educativos Mediambientales</h1>
-        </div>
-
-        <div id="caja-articulos">
-            <div>
-                <img src="images/casanatura.png" alt="imagen del articulo" class="caja-articulos-imagen">
+        <div>
+            <!-- Eventos Próximos -->
+            <div id="caja-titulos">
+                <h1 class="caja-text">Eventos Próximos</h1>
             </div>
-            <div class="caja-articulo-lista">
-                    <p class="caja-articulo-lista" >·El Ayuntamiento de Ripollet ha seleccionado la propuesta de la
+
+            <div id="caja-noticias">
+                <img src="images/ayuntamiento.jpg" alt="Evento Próximo destacado" class="caja-noticias-img">
+                <div class="caja-noticias-text">
+                    <p class="texto-negrita texto-grande">Bombardeen CSS</p>
+                    <p class="texto-cursiva texto-grande">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
+                        vitae similique eos? Omnis sapiente culpa voluptatibus optio iure natus non, fugiat perferendis
+                        minus impedit quisquam harum et autem tempora, recusandae architecto! Dicta voluptates
+                        praesentium ipsa harum quas, similique nobis molestiae corporis, vitae laboriosam adipisci illo!
+                        Sunt nulla quisquam dolores veritatis?</p>
+                    <p class="texto-abajo">31 de Febrer de 2025</p>
+                </div>
+            </div>
+
+            <div id="row-cajas-noticias">
+                <div id="caja-noticias-chikita">
+                    <img src="images/ayuntamiento.jpg" alt="Evento Próximo destacado" class="caja-noticias-chikita-img">
+                    <div class="barra-imagen">
+                        <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum, qui!</div>
+                    </div>
+                </div>
+                <div id="caja-noticias-chikita">
+                    <img src="images/ayuntamiento.jpg" alt="Evento Próximo destacado" class="caja-noticias-chikita-img">
+                    <div class="barra-imagen">
+                        <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum, qui!</div>
+                    </div>
+                </div>
+                <div id="caja-noticias-chikita">
+                    <img src="images/ayuntamiento.jpg" alt="Evento Próximo destacado" class="caja-noticias-chikita-img">
+                    <div class="barra-imagen">
+                        <div>Ripollet <br> No se que mas poner <br> awonddddddaowdmoapwaaaaaaaaaaaaaa</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Noticias Importantes -->
+            <div id="caja-titulos">
+                <h1 class="caja-text">Noticias Importantes</h1>
+                <img src="images/5-ecoparc_montcada1-copia.jpg" alt="Evento Próximo destacado" class="imagenes-box">
+                <p class="textos-tabulados">La entidad organizadora, la CRAC, hace un llamamiento para que las
+                    letraheridas y letraheridos de 16 a 18 años presenten sus obras al recuperado premio literario
+                    ripolletense</p>
+                <img src="images/tablet.jpg" alt="Evento Próximo destacado" class="imagenes-box">
+                <p class="textos-tabulados">La flota de recollida d'escombraries s'adapta al servei Ripollet Aporta</p>
+                <img src="images/tablet (1).jpg" alt="Evento Próximo destacado" class="imagenes-box">
+                <p class="textos-tabulados">Dades de l’AMB sobre la recollida selectiva a Ripollet mostren una tendència
+                    positiva de separació de residus en les darreres setmanes</p>
+                <img src="images/tablet (2).jpg" alt="Evento Próximo destacado" class="imagenes-box">
+                <p class="textos-tabulados">El nou sistema de recollida de residus conviurà amb l'antic fins que tothom
+                    no tingui el material i la informació necessaris</p>
+            </div>
+
+            <!-- Articulos Educativos Mediambientales -->
+            <div id="caja-titulos">
+                <h1 class="caja-text">Articulos Educativos Mediambientales</h1>
+            </div>
+
+            <div id="caja-articulos">
+                <div>
+                    <img src="images/casanatura.png" alt="imagen del articulo" class="caja-articulos-imagen">
+                </div>
+                <div>
+                    <p class="caja-articulo-lista">·El Ayuntamiento de Ripollet ha seleccionado la propuesta de la
                         Escuela del Agua para diseñar, gestionar y ejecutar el programa de educación
                         ambiental de Casa Natura.<br>Ubicada en un entorno emblemático del municipio,
-                        Casa Natura se trata de un espacio patrimonial donde la naturaleza, 
-                        la cultura y la sociedad se dan la mano, creando espacios de 
-                        reflexión en torno a la mejora de la gestión de los diferentes 
+                        Casa Natura se trata de un espacio patrimonial donde la naturaleza,
+                        la cultura y la sociedad se dan la mano, creando espacios de
+                        reflexión en torno a la mejora de la gestión de los diferentes
                         ámbitos del área medio ambiental.<br>Con esta misma finalidad, la Escuela del Agua ha
                         elaborado un programa educativo y divulgativo dirigido a centros escolares y a la
                         ciudadanía en general.
                     </p>
+                </div>
             </div>
         </div>
+        <div class="footer">©Todos los derechos reservados al Arroz</div>
     </div>
-
-    <footer>
-        <p><br></p>
-    </footer>
 </body>
 
 </html>
