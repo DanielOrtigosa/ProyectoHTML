@@ -211,6 +211,7 @@ html {
   height: 700px;
   width: 80%;
   margin-left: 10%;
+  margin-bottom: 2%;
   background-color: #fddf02;
 }
 .caja-noticias-img {
@@ -232,7 +233,9 @@ html {
   position: relative;
   height: 300px;
   width: 400px;
-  margin: 3.5%;
+  margin-left: 3.5%;
+  margin-right: 3.5%;
+  margin-bottom: 2%;
 }
 .caja-noticias-chikita-img {
   height: inherit;
