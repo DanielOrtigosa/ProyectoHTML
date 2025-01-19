@@ -1,0 +1,54 @@
+html {
+  background-color: #8ac7e5;
+}
+/* Header */
+.header {
+  overflow: hidden;
+  background-color: #fddf02;
+  padding: 10px 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Imagen ajustada para el header*/
+.imagenes {
+  display: block;
+  margin-left: 10px;
+  margin-right: 120px;
+  scale: 15%;
+  width: 10px;
+  height: 50px;
+}
+
+/* Atributos de texto */
+.texto-negrita {
+  font-weight: bold;
+  text-align: center;
+  font-size: 40;
+}
+
+/* Contra el texto de contactos */
+.texto-centrado{
+  display: block;
+}
+
+/*caja de todas las imagenes*/
+#caja-contactos {
+  text-align: center;
+  height: auto;
+  width: auto;
+}
+
+/* Estructira de imagenes para entrar en la caja*/
+#estructura-imagenes{
+  height: 100;
+  width: 100;
+}
+
+#caja-mini {
+  display: inline-block;
+  position: relative;
+  height: 300px;
+  width: 400px;
+  scale: 10%;
+}
