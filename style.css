@@ -385,7 +385,7 @@ button {
 }
 
 /* Página de Galeria */
-h1 {
+.titulo-galeria {
   margin: 20px ;
   text-align: center;
   font-size: 70px;
