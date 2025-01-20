@@ -7,17 +7,19 @@ html {
 
 /* TIPOGRAFIA || Fuentes */
 
-.texto-negrita{
+.texto-negrita {
   font-weight: bold;
 }
 
-.texto-cursiva{
+.texto-cursiva {
   font-style: italic;
 }
-.texto-grande{
+
+.texto-grande {
   font-size: 20;
 }
-.texto-abajo{
+
+.texto-abajo {
   padding-top: 100px;
 }
 
@@ -65,20 +67,20 @@ html {
 
 .center {
   display: block;
-margin-left: auto;
-margin-right: auto;
-width: 160px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 160px;
 }
 
 @media screen and (max-width: 500px) {
   .header a {
-      float: none;
-      display: block;
-      text-align: left;
+    float: none;
+    display: block;
+    text-align: left;
   }
 
   .header-right {
-      float: none;
+    float: none;
   }
 }
 
@@ -90,6 +92,7 @@ width: 160px;
   flex-direction: column;
   justify-content: space-between;
 }
+
 .footer {
   align-content: center;
   margin-top: auto;
@@ -102,6 +105,7 @@ width: 160px;
 #menu {
   width: 800px;
 }
+
 .menuitem {
   display: block;
   float: left;
@@ -131,84 +135,108 @@ width: 160px;
   height: 500px;
   width: 300%;
 }
+
 #carrusel-contenido {
   margin: 0 auto;
   overflow: hidden;
   text-align: left;
 }
+
 .imagenes {
   height: 500px;
   width: 100%;
 }
+
 .carrusel-elemento {
   float: left;
   width: 33.333%;
 }
+
 @-moz-keyframes automatizacion {
   0% {
     margin-left: 0;
   }
+
   30% {
     margin-left: 0;
   }
+
   35% {
     margin-left: -100%;
   }
+
   65% {
     margin-left: -100%;
   }
+
   70% {
     margin-left: -200%;
   }
+
   95% {
     margin-left: -200%;
   }
+
   100% {
     margin-left: 0;
   }
 }
+
 @-webkit-keyframes automatizacion {
   0% {
     margin-left: 0;
   }
+
   30% {
     margin-left: 0;
   }
+
   35% {
     margin-left: -100%;
   }
+
   65% {
     margin-left: -100%;
   }
+
   70% {
     margin-left: -200%;
   }
+
   95% {
     margin-left: -200%;
   }
+
   100% {
     margin-left: 0;
   }
 }
+
 @keyframes automatizacion {
   0% {
     margin-left: 0;
   }
+
   30% {
     margin-left: 0;
   }
+
   35% {
     margin-left: -100%;
   }
+
   65% {
     margin-left: -100%;
   }
+
   70% {
     margin-left: -200%;
   }
+
   95% {
     margin-left: -200%;
   }
+
   100% {
     margin-left: 0;
   }
@@ -251,11 +279,13 @@ width: 160px;
   margin-bottom: 2%;
   background-color: #fddf02;
 }
+
 .caja-noticias-img {
   height: inherit;
   width: inherit;
   object-fit: contain;
 }
+
 .caja-noticias-text {
   padding: 50px;
 }
@@ -274,11 +304,13 @@ width: 160px;
   margin-right: 3.5%;
   margin-bottom: 2%;
 }
+
 .caja-noticias-chikita-img {
   height: inherit;
   width: inherit;
   object-fit: scale-down;
 }
+
 .barra-imagen {
   position: absolute;
   bottom: 0;
@@ -298,10 +330,12 @@ width: 160px;
   align-items: center;
   justify-content: center;
 }
+
 .caja-articulos-imagen {
   width: 130%;
   margin-left: 70%;
 }
+
 .caja-articulo-lista {
   font-size: 25;
   background-color: white;
@@ -334,7 +368,7 @@ ul {
   margin: 0;
 }
 
-form li + li {
+form li+li {
   margin-top: 1em;
 }
 
@@ -375,7 +409,8 @@ textarea {
 
 .button {
   /* Alinear los botones con los campos de texto */
-  padding-left: 90px; /* mismo tamaño que los elementos de la etiqueta */
+  padding-left: 90px;
+  /* mismo tamaño que los elementos de la etiqueta */
 }
 
 button {
@@ -386,14 +421,15 @@ button {
 
 /* Página de Galeria */
 .titulo-galeria {
-  margin: 20px ;
+  margin: 20px;
   text-align: center;
   font-size: 70px;
   color: #59316b;
 }
+
 .caja-principal {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); 
+  grid-template-columns: repeat(3, 1fr);
   gap: 20px;
   padding: 20px;
 }
@@ -422,6 +458,8 @@ button {
 /* Página de Contacto */
 
 /* Imagen ajustada para el header*/
+
+/*
 .imagenes {
   display: block;
   margin-left: 10px;
@@ -430,6 +468,7 @@ button {
   width: 10px;
   height: 50px;
 }
+*/
 
 /* Atributos de texto */
 .texto-negrita {
@@ -439,7 +478,7 @@ button {
 }
 
 /* Contra el texto de contactos */
-.texto-centrado{
+.texto-centrado {
   display: block;
   text-align: center;
   margin-right: 160px;
@@ -453,7 +492,7 @@ button {
 }
 
 /* Estructira de imagenes para entrar en la caja*/
-#estructura-imagenes{
+#estructura-imagenes {
   height: 100;
   width: 100;
 }
