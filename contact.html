@@ -4,32 +4,71 @@
 
   <!-- Titulo -->
   <head>
-    <div class="Header">
-        <div class="imagenes"><a href="index.html"><img src="images/escudoRipo.png" alt="Home"></a></div>
-        <p class="texto-negrita texto-cemtrado">CONTACTOS</p>
+    <link rel="stylesheet" href="structure.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Página Principal</title>
+
+    <div class="header">
+        <div>
+            <a href="contact.html"><img src="images/contactIcon.png" alt="Contacto"></a>
+            <a href="gallery.html"><img src="images/cameraIcon.png" alt="Galeria"></a>
+            <a href="environmental.html"><img src="images/mediambientalesIcon.png" alt="Medio Ambiente"></a>
+            <a href="tips.html"><img src="images/ideaIcon.png" alt="Consejos"></a>
+        </div>
+        <a class="center" href="index.html"><img src="images/escudoRipo.png" alt="Página Principal"></a>
+        <div class="header-right">
+            <a href="info.html"><img src="images/infoIcon.png" alt="Información"></a>
+        </div>
     </div>
-  </head>
+
+    <!-- Barra de anclas del Header -->
+    <div class="header">
+        <div>
+            <a href="#Eventos">Eventos Próximos</a>
+            <a href="#Noticias">Noticias Importantes</a>
+            <a href="#Mediambientales">Articulos Educativos Mediambientales</a>
+        </div>
+    </div>
+</head>
 
   <body>
-    <div id="caja-contactos">
-        <div id="caja-mini">
-            <img src="images/home_icon.png" alt="Evento Próximo destacado" class="estructura-imagenes">
+    <div id="row-cajas-noticias">
+        <div id="caja-noticias-chikita">
+            <img src="images/mail.png" alt="Evento Próximo destacado" class="caja-noticias-chikita-img">
             <div class="barra-imagen">
-                <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum, qui!</div>
+                <div>BasurasRipollet@ayuntamiento.com</div>
             </div>
         </div>
-        <div id="caja-mini">
-            <img src="images/phone icon.png" alt="Evento Próximo destacado" class="estructura-imagenes">
+        <div id="caja-noticias-chikita">
+            <img src="images/home_icon.png" alt="Evento Próximo destacado" class="caja-noticias-chikita-img">
             <div class="barra-imagen">
-                <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum, qui!</div>
+                <div>Carrer de la Salut, 1, 08291 Ripollet, Barcelona</div>
             </div>
         </div>
-        <div id="caja-mini">
-            <img src="images/mail.png" alt="Evento Próximo destacado" class="estructura-imagenes">
+        <div id="caja-noticias-chikita">
+            <img src="images/phone icon.png" alt="Evento Próximo destacado" class="caja-noticias-chikita-img">
             <div class="barra-imagen">
-                <div>Ripollet <br> No se que mas poner <br> awonddddddaowdmoapwaaaaaaaaaaaaaa</div>
+                <div>935 04 60 00</div>
             </div>
         </div>
     </div>
+    <form action="/my-handling-form-page" method="post">
+        <ul>
+          <li>
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="user_name" />
+          </li>
+          <li>
+            <label for="mail">Correo electrónico:</label>
+            <input type="email" id="mail" name="user_email" />
+          </li>
+          <li>
+            <label for="msg">Mensaje:</label>
+            <textarea id="msg" name="user_message"></textarea>
+          </li>
+      
+          ...
+        </ul>
+      </form>      
   </body>
 </html>

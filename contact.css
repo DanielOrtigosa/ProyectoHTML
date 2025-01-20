@@ -7,7 +7,7 @@ html {
   background-color: #fddf02;
   padding: 10px 10px;
   display: flex;
-  justify-content: space-between;
+  justify-content: left;
 }
 
 /* Imagen ajustada para el header*/
@@ -15,7 +15,7 @@ html {
   display: block;
   margin-left: 10px;
   margin-right: 120px;
-  scale: 15%;
+  scale: 70%;
   width: 10px;
   height: 50px;
 }
@@ -30,6 +30,8 @@ html {
 /* Contra el texto de contactos */
 .texto-centrado{
   display: block;
+  text-align: center;
+  margin-right: 160px;
 }
 
 /*caja de todas las imagenes*/
