@@ -336,6 +336,12 @@ html {
   margin-left: 70%;
 }
 
+.caja-articulos-imagen-medio {
+  zoom: 150% ;
+  width: 130%;
+  margin-left: 70%;
+}
+
 .caja-articulo-lista {
   font-size: 25;
   background-color: white;
@@ -368,7 +374,7 @@ ul {
   margin: 0;
 }
 
-form li+li {
+form li + li {
   margin-top: 1em;
 }
 
@@ -503,4 +509,13 @@ button {
   height: 300px;
   width: 400px;
   scale: 10%;
+}
+label {
+  display: block;
+  font: 1rem "Fira Sans", sans-serif;
+}
+
+input,
+label {
+  margin: 0.5px;
 }
