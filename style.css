@@ -19,6 +19,10 @@ html {
   font-size: 20;
 }
 
+#texto-pequeno{
+  font-size: 14;
+}
+
 .texto-abajo {
   padding-top: 100px;
 }
@@ -273,7 +277,7 @@ html {
   align-items: center;
   float: left;
   justify-content: space-between;
-  height: 700px;
+
   width: 80%;
   margin-left: 10%;
   margin-bottom: 2%;
@@ -518,4 +522,28 @@ label {
 input,
 label {
   margin: 0.5px;
+}
+
+.fondo-blanco-texto{
+  background-color: rgba(255, 255, 255, 0.445);
+  border-radius: 15px;
+  padding: 2%;
+}
+
+.rectangulo-blanco-texto{
+  background-color: rgb(255, 255, 255);
+  padding: 2%;
+}
+
+.fondo-morado-texto{
+  background-color: rgba(177, 37, 158, 0.445);
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.caja-padding-10{
+  padding-left: 10%;
+  padding-right: 10%;
 }
