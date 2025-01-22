@@ -3,6 +3,7 @@
 html {
   /* Color Fondo Web */
   background-color: #8ac7e5;
+  scroll-behavior:smooth;
 }
 
 /* TIPOGRAFIA || Fuentes */
