@@ -28,6 +28,10 @@ html {
   padding-top: 100px;
 }
 
+.texto-justificado{
+  text-align: justify;
+}
+
 /* HEADER || Encabezado */
 
 .header {
@@ -276,8 +280,8 @@ html {
 #caja-noticias {
   display: flex;
   align-items: center;
-  float: left;
-  justify-content: space-between;
+  justify-content: center;
+  overflow: hidden;
 
   width: 80%;
   margin-left: 10%;
@@ -286,13 +290,15 @@ html {
 }
 
 .caja-noticias-img {
-  height: inherit;
-  width: inherit;
+  height: auto;
+  width: 50%;
   object-fit: contain;
 }
 
 .caja-noticias-text {
-  padding: 50px;
+  padding: 2%;
+  height: auto;
+  width: 50%;
 }
 
 #row-cajas-noticias {
