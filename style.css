@@ -35,7 +35,7 @@ html {
   padding: 20px 10px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: center; 
 }
 
 .header a {
@@ -546,4 +546,8 @@ label {
 .caja-padding-10{
   padding-left: 10%;
   padding-right: 10%;
+}
+
+.borde-negro-superior{
+  border-top: 1px solid black;
 }
