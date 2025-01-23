@@ -555,3 +555,9 @@ label {
 .borde-negro-superior{
   border-top: 1px solid black;
 }
+
+.imagen-linea-buses{
+  scale: auto;
+  height: 100%;
+  width: 100%;
+}
