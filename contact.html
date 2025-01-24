@@ -1,78 +1,52 @@
 <html>
-  <!-- CSS -->
+<!-- CSS -->
+<link rel="stylesheet" href="style.css" />
+
+<!-- Titulo -->
+
+<head>
+  <link rel="stylesheet" href="structure.css" />
   <link rel="stylesheet" href="style.css" />
+  <title>Página Principal</title>
 
-  <!-- Titulo -->
-  <head>
-    <link rel="stylesheet" href="structure.css" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Página Principal</title>
-
-    <div class="header">
-      <div>
-        <a href="contact.html"
-          ><img src="images/contactIcon.png" alt="Contacto"
-        /></a>
-        <a href="gallery.html"
-          ><img src="images/cameraIcon.png" alt="Galeria"
-        /></a>
-        <a href="environmental.html"
-          ><img src="images/mediambientalesIcon.png" alt="Medio Ambiente"
-        /></a>
-        <a href="tips.html"><img src="images/ideaIcon.png" alt="Consejos" /></a>
-      </div>
-      <a class="center" href="index.html"
-        ><img src="images/escudoRipo.png" alt="Página Principal"
-      /></a>
-      <div class="header-right">
-        <a href="info.html"
-          ><img src="images/infoIcon.png" alt="Información"
-        /></a>
-      </div>
+  <div class="header">
+    <div>
+      <a href="contact.html"><img src="images/contactIcon.png" alt="Contacto" /></a>
+      <a href="gallery.html"><img src="images/cameraIcon.png" alt="Galeria" /></a>
+      <a href="environmental.html"><img src="images/mediambientalesIcon.png" alt="Medio Ambiente" /></a>
+      <a href="tips.html"><img src="images/ideaIcon.png" alt="Consejos" /></a>
     </div>
-
-    <!-- Barra de anclas del Header -->
-    <div class="header borde-negro-superior">
-      <div>
-          <a href="#Formulario">Formulario de contacto</a>
-      </div>
+    <a class="center" href="index.html"><img src="images/escudoRipo.png" alt="Página Principal" /></a>
+    <div class="header-right">
+      <a href="info.html"><img src="images/infoIcon.png" alt="Información" /></a>
+    </div>
   </div>
-  </head>
 
-  <body>
-    <div class="flex-wrapper">
-    <div id="row-cajas-noticias">
-      <div id="caja-noticias-chikita">
-        <img
-          src="images/mail.png"
-          alt="Evento Próximo destacado"
-          class="caja-noticias-chikita-img"
-        />
-        <div class="barra-imagen">
-          <div>BasurasRipollet@ayuntamiento.com</div>
-        </div>
+  <!-- Barra de anclas del Header -->
+  <div class="header borde-negro-superior">
+    <div>
+      <a href="#Formulario">Formulario de contacto</a>
+    </div>
+  </div>
+</head>
+
+<body>
+  <div class="flex-wrapper">
+    <div class="caja-principal">
+      <div class="caja-galeria">
+        <img src="images/mail.png" alt="Evento Próximo destacado" class="caja-galeria-imagen">
+        <p class="fondo-blanco-texto" id="texto-pequeno">BasurasRipollet@ayuntamiento.com</p>
       </div>
-      <div id="caja-noticias-chikita">
-        <img
-          src="images/home_icon.png"
-          alt="Evento Próximo destacado"
-          class="caja-noticias-chikita-img"
-        />
-        <div class="barra-imagen">
-          <div>Carrer de la Salut, 1, 08291 Ripollet, Barcelona</div>
-        </div>
+      <div class="caja-galeria">
+        <img src="images/home_icon.png" alt="Evento Próximo destacado" class="caja-galeria-imagen">
+        <p class="fondo-blanco-texto" id="texto-pequeno">Carrer de la Salut, 1, 08291 Ripollet, Barcelona</p>
       </div>
-      <div id="caja-noticias-chikita">
-        <img
-          src="images/phone icon.png"
-          alt="Evento Próximo destacado"
-          class="caja-noticias-chikita-img"
-        />
-        <div class="barra-imagen">
-          <div>935 04 60 00</div>
-        </div>
+      <div class="caja-galeria">
+        <img src="images/phone icon.png" alt="Evento Próximo destacado" class="caja-galeria-imagen">
+        <p class="fondo-blanco-texto" id="texto-pequeno">935 04 60 00</p>
       </div>
     </div>
+
     <form id="Formulario" action="/my-handling-form-page" method="post">
       <ul>
         <li>
@@ -89,21 +63,25 @@
         </li>
         <li>
           <label for="msg">Subir archivo:</label>
-          <input type="file" id="avatar" name="avatar" accept="image/png, image/jpeg"/>
+          <input type="file" id="avatar" name="avatar" accept="image/png, image/jpeg" />
         </li>
         <li>
           <label for="msg">Localitzacio Ripollet Aporta:</label>
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2988.3199069953985!2d2.1549704!3d41.4973418!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4bdaab868f743%3A0x4f0d2b5f81a28b54!2sRipollet%20Aporta!5e0!3m2!1sen!2ses!4v1737675270062!5m2!1sen!2ses" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2988.3199069953985!2d2.1549704!3d41.4973418!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4bdaab868f743%3A0x4f0d2b5f81a28b54!2sRipollet%20Aporta!5e0!3m2!1sen!2ses!4v1737675270062!5m2!1sen!2ses"
+            width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
         </li>
       </ul>
     </form>
+  </div>
+  <div class="footer">
+    <img src="images/escut-ripollet.png" alt="imagen del articulo" class="imagen-footer">
+    <div class="texto-footer">
+      <p>Carrer de Balmes, 2, 08291 Ripollet, Barcelona. <br><br>CIF: P0817900D</p>
+      <p>©Proyecto de sostenibilidad<br><br>Desarrollado por Dani O., Dayana y Dani T.</p>
     </div>
-    <div class="footer">
-      <img src="images/escut-ripollet.png" alt="imagen del articulo" class="imagen-footer">
-      <div class="texto-footer">
-          <p>Carrer de Balmes, 2, 08291 Ripollet, Barcelona. <br><br>CIF: P0817900D</p>
-          <p>©Proyecto de sostenibilidad<br><br>Desarrollado por Dani O., Dayana y Dani T.</p>
-      </div>
-    </div>
-  </body>
+  </div>
+</body>
+
 </html>

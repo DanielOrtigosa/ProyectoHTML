@@ -359,10 +359,20 @@ html {
   width: 100%;
 }
 
+#caja-env-chikita {
+  text-align: center;
+  display: inline-block;
+  position: relative;
+  height: auto;
+  width: 100%;
+}
+
 .caja-noticias-chikita-img {
   height: inherit;
   width: inherit;
   object-fit: scale-down;
+  margin-bottom: 2%;
+  border-radius: 15px;
 }
 
 
