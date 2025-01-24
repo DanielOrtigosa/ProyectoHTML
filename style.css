@@ -571,9 +571,57 @@ th {
   background-color: #7e57c2; 
   color: white;
 }
+ 
 
 
+/* APARTADO PUNTO NUMEERO 1 DE LOS OD*/
 
+header p {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.caja-ods {
+  width: 90%;
+  max-width: 1200px;
+  margin: 20px auto;
+}
+
+.ods-apartado {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 columnas */
+
+  gap: 20px;
+}
+
+.ods-las17 {
+  background: #f4f4f4;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+}
+
+.ods-las17 img {
+  width: 80px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.ods-las17 h3 {
+
+  color: #3bb6ce;
+}
+
+.ods-las17 p {
+  color: #333;
+}
+
+.ods-las17 a {
+  display: inline-block;
+  margin-top: 10px;
+  color: white;
+  border-radius: 5px;
+}
 
 
 
@@ -613,7 +661,7 @@ th {
   width: auto;
 }
 
-/* Estructira de imagenes para entrar en la caja*/
+/* Estructura de imagenes para entrar en la caja*/
 #estructura-imagenes {
   height: 100;
   width: 100;
