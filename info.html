@@ -22,11 +22,22 @@
             <a href="info.html"><img src="images/infoIcon.png" alt="Información"></a>
         </div>
     </div>
+    <!-- Barra de anclas del Header -->
+    <div class="header borde-negro-superior">
+        <div>
+            <a href="#UE">UNIÓN EUROPEA Y AGENDA 2030</a>
+            <a href="#Compromiso">El Compromiso de la UE con los ODS</a>
+            <a href="#ods">Los 17 Objetivos de Desarrollo Sostenible</a>
+            <a href="#Pacto">Pacto Verde Europeo</a>
+            <a href="#nextGen">Next Generation EU</a>
+        </div>
+    </div>
+
     <div class="flex-wrapper">
         <header>
-            <h1 class="titulo-galeria">UNIÓN EUROPEA Y AGENDA 2030</h1>
+            <h1 id="UE" class="titulo-galeria">UNIÓN EUROPEA Y AGENDA 2030</h1>
         </header>
-        <p>En un mundo marcado por crisis, como los incendios, la escasez de agua, los conflictos sociales y
+        <p class="texto-padding">En un mundo marcado por crisis, como los incendios, la escasez de agua, los conflictos sociales y
             los desafíos económicos, la Agenda 2030 de las Naciones Unidas se presenta como una fuente de esperanza
             para un futuro mejor.</p>
 
@@ -40,11 +51,13 @@
                 <div>
                     <img src="images/agenda2030.png" alt="imagen de agenda 30" class="caja-imagen-agenda">
                 </div>
-                <p class="texto-padding">La Agenda 2030 es un plan global de las Naciones Unidas con 17 Objetivos de Desarrollo
+                <p class="texto-padding">
+                    La Agenda 2030 es un plan global de las Naciones Unidas con 17 Objetivos de Desarrollo
                     Sostenible (ODS) que busca mejorar la vida de las personas, proteger el planeta y
                     promover la paz. Aborda problemas como la pobreza, el cambio climático y la desigualdad,
                     e invita a gobiernos, empresas y ciudadanos a colaborar para lograr un futuro más justo y
-                    sostenible.</p>
+                    sostenible.
+                </p>
             </div>
          </div>
 
@@ -106,7 +119,7 @@
             <!-- EL PUNTO NUMERO 1 -->
             <div class="caja-ods">
             <header>               
-                    <h1 class="titulo-galeria">El Compromiso de la UE con los ODS</h1>
+                    <h1 id="Compromiso" class="titulo-galeria">El Compromiso de la UE con los ODS</h1>
                     <p>La Unión Europea (UE) aborda los 17 Objetivos de Desarrollo Sostenible 
                         (ODS) a través de diversas políticas y estrategias clave:</p>
             </header>
@@ -221,9 +234,69 @@
                         <img src="images/agenda2030.png" alt="Agenda 2030" class="ods-las17">  
                 </div>
             </section>
-        
+        </div>
+        <div id="caja-noticias">
+            <div class="caja-noticias-text rectangulo-blanco-texto">
+                <h2 id="Pacto">Pacto Verde Europeo</h2>
+                <p>El Pacto Verde Europeo <cite>(European Green Deal)</cite> es la estrategia central de la Unión Europea para lograr la neutralidad climática en 2050. Su objetivo es transformar la economía de la UE de manera sostenible, reduciendo las emisiones de gases de efecto invernadero y protegiendo los recursos naturales.</p>
+                
+                <div class="fondo-verde-texto">
+                  <p>El Pacto Verde Europeo incluye medidas clave como:</p>
+                  <ol>
+                      <li><p>Neutralidad Climática para 2050: La UE se compromete a alcanzar cero emisiones netas de gases de efecto invernadero para 2050, lo que implica reducir las emisiones y aumentar la absorción de CO2 a través de soluciones naturales y tecnológicas.</p></li>
+                      <li><p>Economía Circular: Esta medida busca reducir los residuos y el consumo de recursos naturales mediante el reciclaje, la reutilización y el diseño de productos más sostenibles. Se promueve una mayor eficiencia en el uso de materiales, extendiendo la vida útil de los productos y minimizando el impacto ambiental. Esto incluye iniciativas como la Estrategia de Economía Circular, que establece normas para fomentar la producción responsable y la reducción de residuos en todos los sectores.</p></li>
+                      <li><p>Transición Energética: El Pacto Verde Europeo también impulsa la transición hacia una energía limpia y renovable. Esto incluye el fomento de fuentes de energía como la solar, eólica e hidroeléctrica, con el objetivo de reducir las emisiones de carbono. Además, se promueve la mejora de la eficiencia energética en todos los sectores, desde la industria hasta la construcción y el transporte. El plan incluye inversiones en infraestructuras verdes, como la red eléctrica inteligente, y apoya el desarrollo de nuevas tecnologías para alcanzar una economía baja en carbono.</p></li>
+                      <li><p>Movilidad Sostenible: Impulsa la transición hacia un transporte más limpio y eficiente, fomentando vehículos eléctricos, la infraestructura necesaria y la movilidad pública.</p></li>
+                      <li><p>Protección de la Biodiversidad: Incluye medidas para conservar los ecosistemas y proteger la biodiversidad, a través de la restauración de hábitats y la promoción de prácticas agrícolas sostenibles.</p></li>
+                      <li><p>Inversión Verde: El Pacto Verde también se enfoca en la financiación de la transición ecológica, utilizando fondos como Next Generation EU para apoyar proyectos verdes y sostenibles.</p></li>
+                  </ol>
+                </div>
+                <p>Estas medidas son fundamentales para lograr un futuro sostenible, reduciendo las emisiones, mejorando la eficiencia de los recursos y garantizando un modelo económico y energético más limpio y circular.</p>
+              </div>
+            <img src="images/greenDeal.png" alt="Información" class="caja-noticias-img"/>
         </div>
 
+        <div id="caja-noticias">
+          <img src="images/nextGen.png" alt="Información" class="caja-noticias-img-padding"/>
+          <div class="caja-noticias-text rectangulo-blanco-texto">
+              <h2 id="nextGen">Next Generation EU</h2>
+              <p>Este es un plan de recuperación económica para ayudar a los países de la UE a superar los efectos de la pandemia de COVID-19. Parte de estos fondos están destinados a iniciativas relacionadas con la sostenibilidad y el cambio climático. Tal como:</p>
+              <ol>
+                <li><p>Energías renovables.</p></li>
+                <li><p>Eficiencia energética.</p></li>
+                <li><p>Infraestructuras verdes.</p></li>
+                <li><p>Proyectos de transición ecológica.</p></li>
+              </ol>
+              <p>El objetivo es ayudar a los países miembros a lograr la neutralidad climática para 2050 y acelerar la transición hacia una economía baja en carbono.
+              </p>
+
+              <p>Junto al Next Generation EU, tambien se dispone de los siguientes sistemas de Financiación para Sostenibilidad:</p>
+              
+              <table>
+                <tr class="estrategia1">
+                    <td>Planes Nacionales de Recuperación (RRF)</td>
+                    <td>Las empresas pueden solicitar subvenciones y préstamos de los gobiernos nacionales para proyectos verdes, de eficiencia energética y digitalización.</td>
+                </tr>
+                <tr class="estrategia2">
+                    <td>Fondo de Transición Justa</td>
+                    <td>Apoya a empresas en sectores afectados por la transición ecológica, ofreciendo subvenciones para reconversión industrial y creación de empleos verdes</td>
+                </tr>
+                <tr class="estrategia3">
+                    <td>Horizon Europe</td>
+                    <td>Las empresas pueden recibir financiación para proyectos de investigación e innovación sostenibles, como energías limpias y tecnologías verdes</td>
+                </tr>
+                <tr class="estrategia1">
+                  <td>Fondo Europeo de Inversiones (FEI)</td>
+                  <td>Facilita acceso a créditos y préstamos para PYMES que desarrollen proyectos sostenibles.</td>
+                </tr>
+                <tr class="estrategia2">
+                  <td>Bonos Verdes</td>
+                  <td>Las empresas pueden emitir bonos verdes para financiar iniciativas ecológicas y sostenibles</td>
+                </tr> 
+            </table>
+            <p>Cabe destacar que para que las empresas puedan optar a estas medidas, deben presentar proyectos alineados con los criterios de sostenibilidad, cumplir con los requisitos de cada fondo y participar en convocatorias locales o regionales.</p>
+          </div>
+      </div>
 
     </div>
     <div class="footer">

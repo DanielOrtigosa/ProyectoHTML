@@ -4,6 +4,9 @@ html {
   /* Color Fondo Web */
   background-color: #8ac7e5;
   scroll-behavior:smooth;
+
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-optical-sizing: auto;
 }
 
 /* TIPOGRAFIA || Fuentes */
@@ -315,6 +318,13 @@ html {
   object-fit: contain;
 }
 
+.caja-noticias-img-padding {
+  height: auto;
+  width: 50%;
+  object-fit: contain;
+  padding: 2%;
+}
+
 .caja-noticias-text {
   padding: 2%;
   height: auto;
@@ -518,6 +528,7 @@ button {
   width: 400px; 
   height: auto; 
   border-radius: 30px; /* Bordes */
+  margin-right: 100px;
 }
 
 #caja-Agenda2030 p {
