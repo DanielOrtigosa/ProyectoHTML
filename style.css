@@ -333,6 +333,8 @@ html {
   align-items: center;
 }
 
+/*apartado articulos medioambientales*/
+
 #caja-articulos {
   float: left;
   width: 80%;
@@ -347,7 +349,7 @@ html {
 .caja-articulos-imagen {
   width: 130%;
   margin-left: 70%;
-  border-radius: 50px;
+  border-radius: 40px;
   
 }
 
@@ -435,7 +437,7 @@ button {
   margin-left: 0.5em;
 }
 
-/* Página de Galeria */
+/* Página de Galeria */ç
 .titulo-galeria {
   margin: 20px;
   text-align: center;
@@ -470,6 +472,30 @@ button {
   font-size: 25px;
   color: #232121;
 }
+
+/*Pagina Info*/
+#caja-Agenda2030 {
+  display: flex;
+  align-items: center; /* Alinea verticalmente texto e imagen */
+  justify-content: center; /* Alinea horizontalmente en el centro */
+  gap: 40px; /* Aumenta la separación entre imagen y texto */
+  width: 100%;
+  padding: 20px;
+}
+
+.caja-imagen-agenda {
+  width: 400px; /* Tamaño más grande para la imagen */
+  height: auto; /* Mantén la proporción de la imagen */
+  border-radius: 30px;
+}
+
+#caja-Agenda2030 p {
+  font-size: 24px; /* Texto más grande */
+  line-height: 1.8; /* Más espaciado entre líneas para mejor lectura */
+  max-width: 600px; /* Limita el ancho del texto */
+  text-align: justify; /* Justifica el texto */
+}
+
 
 /* Página de Contacto */
 
