@@ -529,6 +529,54 @@ button {
   margin: 0; 
 }
 
+/* esto es de la tabla*/
+
+.caja-estrategias {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #ffffff; /* Fondo blanco */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 16px;
+  text-align: left;
+}
+
+/*para que la tabla no tenga fallos*/
+th, td {
+  border: 1px solid #ddd; /* esto es para que en la tabla los border se vean de este color*/
+  padding: 10px; /* espacio entre los cuadrados de la tabla */
+}
+
+.estrategia1 {
+  background-color: #e0f7fa; 
+}
+
+.estrategia2 {
+  background-color: #c5cae9; 
+}
+
+.estrategia3{
+  background-color: #f7f7b3; 
+}
+
+/* caja del titulo de la tabla*/
+th { 
+  background-color: #7e57c2; 
+  color: white;
+}
+
+
+
+
+
+
 /* Página de Contacto */
 
 /* Imagen ajustada para el header*/
