@@ -475,27 +475,28 @@ button {
 
 /*Pagina Info*/
 #caja-Agenda2030 {
-  display: flex;
-  align-items: center; /* Alinea verticalmente texto e imagen */
-  justify-content: center; /* Alinea horizontalmente en el centro */
-  gap: 40px; /* Aumenta la separación entre imagen y texto */
+  display: flex; 
+  align-items: center; 
+  justify-content: center;
+  gap: 40px; /* Espacio entre la imagen y el texto */
   width: 100%;
-  padding: 20px;
+  padding: 50px; 
 }
 
 .caja-imagen-agenda {
-  width: 400px; /* Tamaño más grande para la imagen */
-  height: auto; /* Mantén la proporción de la imagen */
-  border-radius: 30px;
+  width: 400px; 
+  height: auto; 
+  border-radius: 30px; /* Bordes */
 }
 
 #caja-Agenda2030 p {
-  font-size: 24px; /* Texto más grande */
-  line-height: 1.8; /* Más espaciado entre líneas para mejor lectura */
-  max-width: 600px; /* Limita el ancho del texto */
-  text-align: justify; /* Justifica el texto */
+  font-size: 24px; 
+  line-height: 1.7; /* Espaciado entre líneas */
+  max-width: 600px; /* Ancho máximo del texto */
+  text-align: justify; 
+  padding: 0; 
+  margin: 0; 
 }
-
 
 /* Página de Contacto */
 
