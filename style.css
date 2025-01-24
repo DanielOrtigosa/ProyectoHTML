@@ -287,9 +287,9 @@ html {
 }
 
 .imagenes-box {
-  height: 500px;
-  width: 60%;
-  margin-left: 5%;
+  height: auto;
+  width: 100%;
+  margin-right: 10%;
 }
 
 .textos-tabulados {
@@ -298,6 +298,14 @@ html {
 
 .caja-text {
   margin-left: 5%;
+}
+
+.caja-noticias-importantes {
+  margin: 5%;
+  padding: 20px;
+  background-color: #ffffff; /* Fondo blanco */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 #caja-noticias {
