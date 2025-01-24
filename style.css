@@ -648,6 +648,12 @@ label {
   padding: 2%;
 }
 
+.fondo-verde-texto{
+  background-color: rgba(236, 255, 230, 0.767);
+  border-radius: 15px;
+  padding: 2%;
+}
+
 .rectangulo-blanco-texto{
   background-color: rgb(255, 255, 255);
   padding: 2%;
