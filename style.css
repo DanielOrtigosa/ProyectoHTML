@@ -406,16 +406,11 @@ html {
 }
 
 .caja-articulos-imagen {
-  width: 130%;
-  margin-left: 70%;
-  border-radius: 40px;
+  width: 173%;
+  margin-left: 60%;
+  border-radius: 30px;
+  gap: 40px;
   
-}
-
-.caja-articulos-imagen-medio {
-  zoom: 150% ;
-  width: 130%;
-  margin-left: 70%;
 }
 
 .caja-articulo-lista {
@@ -429,6 +424,11 @@ html {
   text-align: justify;
 }
 
+.caja-articulos-imagen-medio {
+  zoom: 150% ;
+  width: 130%;
+  margin-left: 70%;
+}
 form {
   /* Centrar el formulario en la página */
   margin: 0 auto;
@@ -544,7 +544,7 @@ button {
   justify-content: center;
   gap: 40px; /* Espacio entre la imagen y el texto */
   width: 100%;
-  padding: 50px; 
+  padding: 50px;
 }
 
 .caja-imagen-agenda {
@@ -569,7 +569,7 @@ button {
   max-width: 1200px;
   margin: 20px auto;
   padding: 20px;
-  background-color: #ffffff; /* Fondo blanco */
+  background-color: #ffffff; 
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -610,9 +610,9 @@ th {
 
 /* APARTADO PUNTO NUMEERO 1 DE LOS OD*/
 
-header p {
-  font-size: 1.2rem;
-  text-align: center;
+.subtituloOds{
+  font-size: 25px;
+  color: #ae70c9
 }
 
 .caja-ods {
@@ -647,8 +647,20 @@ header p {
 .ods-las17 p {
   color: #333;
 }
+/* Apartado ejemplos */
 
+.caja-galeria-info {
+  text-align: center;
+  overflow: hidden;
+  border-radius: 10px;
+  padding: 10px;
+}
 
+.caja-galeria-info p {
+  margin: 0;
+  font-size: 15px;
+  color: #232121;
+}
 
 
 /* Página de Contacto */
