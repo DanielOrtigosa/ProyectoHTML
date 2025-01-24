@@ -32,6 +32,11 @@ html {
   text-align: justify;
 }
 
+.texto-padding{
+  padding-inline: 5%;
+  text-align: justify;
+}
+
 /* HEADER || Encabezado */
 
 .header {
@@ -103,12 +108,15 @@ html {
 }
 
 .footer {
+  display: flex;
+  flex-direction: row;
   align-content: center;
-  margin-top: auto;
-  text-align: center;
+  width: 100%;
+  
   background-color: #742964;
   color: aliceblue;
-  height: 100px;
+
+  margin-top: 2%;
 }
 
 #menu {
@@ -304,6 +312,16 @@ html {
 #row-cajas-noticias {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+  overflow: hidden;
+  margin-inline: 5%;
+  margin-bottom: 2%;
+}
+
+#row-cajas-noticias_2x2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   gap: 20px;
   padding: 20px;
   overflow: hidden;
@@ -591,4 +609,23 @@ label {
   padding-left: 5%;
   padding-right: 5%;
   padding-bottom: 5%;
+}
+
+.imagen-footer{
+  width: 40%;
+  padding: 1%;
+}
+
+.texto-footer{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 700px;
+}
+
+.texto-footer p{
+  width: 30%;
+  text-align: center;
+  padding: 5%;
+  padding-inline: 10%;
 }
