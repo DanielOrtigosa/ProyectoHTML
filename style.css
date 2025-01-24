@@ -9,6 +9,11 @@ html {
   font-optical-sizing: auto;
 }
 
+/* Evitar Bordes alrededor de la pagina por default */
+body{
+  margin: 0px;
+}
+
 /* TIPOGRAFIA || Fuentes */
 
 .texto-negrita {
