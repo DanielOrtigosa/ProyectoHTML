@@ -263,6 +263,18 @@ html {
   text-transform: 10px;
 }
 
+#caja-titulos-env {
+  float: left;
+  height: auto;
+  width: 90%;
+  border-radius: 1rem;
+  background-color: #fddf02;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 5%;
+  text-transform: 10px;
+}
+
 .imagenes-box {
   height: 500px;
   width: 60%;
@@ -324,6 +336,7 @@ html {
   width: inherit;
   object-fit: scale-down;
 }
+
 
 .barra-imagen {
   position: absolute;
