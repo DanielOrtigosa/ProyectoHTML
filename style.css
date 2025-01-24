@@ -794,3 +794,19 @@ label {
   padding: 5%;
   padding-inline: 10%;
 }
+
+.caja-subir{
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.interior-caja{
+  text-align: center;
+  border: 2px solid rgb(95 97 110);
+  background-color: #ae70c9;
+  border-radius: 15px;
+  padding: 20px;
+  width: 10em;
+}
