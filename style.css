@@ -590,11 +590,10 @@ header p {
 .ods-apartado {
   display: grid;
   grid-template-columns: repeat(2, 1fr); /* 2 columnas */
-
   gap: 20px;
 }
 
-.ods-las17 {
+.ods-las17{
   background: #f4f4f4;
   border-radius: 10px;
   padding: 20px;
@@ -602,13 +601,12 @@ header p {
 }
 
 .ods-las17 img {
-  width: 80px;
+  width: 100px;
   height: auto;
   margin-bottom: 10px;
 }
 
 .ods-las17 h3 {
-
   color: #3bb6ce;
 }
 
@@ -616,12 +614,6 @@ header p {
   color: #333;
 }
 
-.ods-las17 a {
-  display: inline-block;
-  margin-top: 10px;
-  color: white;
-  border-radius: 5px;
-}
 
 
 
