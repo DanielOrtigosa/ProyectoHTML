@@ -302,18 +302,21 @@ html {
 }
 
 #row-cajas-noticias {
-  /*Esto + el display: ingline-block en lo que haya dentro hace que se alinee todo centrado*/
-  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+  overflow: hidden;
+  margin-inline: 5%;
+  margin-bottom: 2%;
 }
 
 #caja-noticias-chikita {
+  text-align: center;
   display: inline-block;
   position: relative;
-  height: 300px;
-  width: 400px;
-  margin-left: 3.5%;
-  margin-right: 3.5%;
-  margin-bottom: 2%;
+  height: auto;
+  width: 100%;
 }
 
 .caja-noticias-chikita-img {
@@ -326,8 +329,7 @@ html {
   position: absolute;
   bottom: 0;
   background-color: #fff8c3;
-  width: 100%;
-  display: flex;
+  width: inherit;
   align-items: center;
 }
 
