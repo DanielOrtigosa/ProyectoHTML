@@ -593,6 +593,12 @@ label {
   padding: 2%;
 }
 
+.fondo-amarillo-texto{
+  background-color: rgba(253, 243, 154, 0.767);
+  border-radius: 15px;
+  padding: 2%;
+}
+
 .rectangulo-blanco-texto{
   background-color: rgb(255, 255, 255);
   padding: 2%;
