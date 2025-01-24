@@ -32,6 +32,11 @@ html {
   text-align: justify;
 }
 
+.texto-padding{
+  padding-inline: 5%;
+  text-align: justify;
+}
+
 /* HEADER || Encabezado */
 
 .header {
@@ -103,12 +108,15 @@ html {
 }
 
 .footer {
+  display: flex;
+  flex-direction: row;
   align-content: center;
-  margin-top: auto;
-  text-align: center;
+  width: 100%;
+  
   background-color: #742964;
   color: aliceblue;
-  height: 100px;
+
+  margin-top: 2%;
 }
 
 #menu {
@@ -263,6 +271,18 @@ html {
   text-transform: 10px;
 }
 
+#caja-titulos-env {
+  float: left;
+  height: auto;
+  width: 90%;
+  border-radius: 1rem;
+  background-color: #fddf02;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 5%;
+  text-transform: 10px;
+}
+
 .imagenes-box {
   height: 500px;
   width: 60%;
@@ -311,6 +331,16 @@ html {
   margin-bottom: 2%;
 }
 
+#row-cajas-noticias_2x2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  padding: 20px;
+  overflow: hidden;
+  margin-inline: 5%;
+  margin-bottom: 2%;
+}
+
 #caja-noticias-chikita {
   text-align: center;
   display: inline-block;
@@ -324,6 +354,7 @@ html {
   width: inherit;
   object-fit: scale-down;
 }
+
 
 .barra-imagen {
   position: absolute;
@@ -563,6 +594,12 @@ label {
   padding: 2%;
 }
 
+.fondo-amarillo-texto{
+  background-color: rgba(253, 243, 154, 0.767);
+  border-radius: 15px;
+  padding: 2%;
+}
+
 .rectangulo-blanco-texto{
   background-color: rgb(255, 255, 255);
   padding: 2%;
@@ -592,4 +629,23 @@ label {
   padding-left: 5%;
   padding-right: 5%;
   padding-bottom: 5%;
+}
+
+.imagen-footer{
+  width: 40%;
+  padding: 1%;
+}
+
+.texto-footer{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 700px;
+}
+
+.texto-footer p{
+  width: 30%;
+  text-align: center;
+  padding: 5%;
+  padding-inline: 10%;
 }
